@@ -76,4 +76,5 @@ Plug 'glepnir/zephyr-nvim'
 Plug 'ThePrimeagen/vim-be-good'
 
 Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
+Plug 'npxbr/glow.nvim', {'do': ':GlowInstall'}
 call plug#end()

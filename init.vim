@@ -9,7 +9,8 @@ source $HOME/.config/nvim/barbar/barbar.vim
 source $HOME/.config/nvim/dashboard/dashboard.vim
 source $HOME/.config/nvim/vimwiki/vimwiki.vim
 source $HOME/.config/nvim/format/neoformat.vim
-source $HOME/.config/nvim/status/lightline.vim
+" source $HOME/.config/nvim/status/lightline.vim
+source $HOME/.config/nvim/status/lsp_status.vim
 
 let g:python2_host_prog = '/home/jlopez/anaconda3/bin/python'
 
@@ -43,3 +44,5 @@ call neomake#configure#automake('rw', 1000)
 " Full config: when writing or reading a buffer, and on changes in insert and
 " normal mode (after 500ms; no delay when writing).
 call neomake#configure#automake('nrwi', 500)
+
+nmap <leader>pre :Glow<CR>

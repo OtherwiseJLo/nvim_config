@@ -27,10 +27,10 @@ lspconfig.texlab.setup{
   }
 }
 
--- lspconfig.jdtls.setup{
-    -- on_attach = full_attach;
-    -- root_dir = lspconfig.util.root_pattern(".git", "build.gradle", "build.gradle.kts", "pom.xml");
-  -- }
+lspconfig.jdtls.setup{
+  on_attach = full_attach;
+  root_dir = lspconfig.util.root_pattern(".git", "build.gradle", "build.gradle.kts", "pom.xml");
+}
 
 lspconfig.dockerls.setup{on_attach=full_attach}
 lspconfig.vimls.setup{on_attach=full_attach}
