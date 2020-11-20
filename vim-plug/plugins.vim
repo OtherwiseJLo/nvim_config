@@ -82,4 +82,10 @@ Plug 'npxbr/glow.nvim', {'do': ':GlowInstall'}
 " Adding auto complete supports
 Plug 'tpope/vim-endwise'
 Plug 'jiangmiao/auto-pairs'
+
+" Commentary
+Plug 'preservim/nerdcommenter'
+
+" Git integration
+Plug 'airblade/vim-gitgutter'
 call plug#end()

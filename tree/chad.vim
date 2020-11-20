@@ -1,1 +1,1 @@
-nnoremap <leader>v <cmd>CHADopen<cr>
+nnoremap <leader>dir <cmd>CHADopen<cr>

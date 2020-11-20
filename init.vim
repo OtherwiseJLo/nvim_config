@@ -12,6 +12,10 @@ source $HOME/.config/nvim/format/neoformat.vim
 " source $HOME/.config/nvim/status/lightline.vim
 source $HOME/.config/nvim/status/lsp_status.vim
 source $HOME/.config/nvim/autopair/autopair.vim
+source $HOME/.config/nvim/tree/chad.vim
+source $HOME/.config/nvim/commenter/commenter.vim
+source $HOME/.config/nvim/git/gutter.vim
+
 
 let g:python2_host_prog = '/home/jlopez/anaconda3/bin/python'
 
