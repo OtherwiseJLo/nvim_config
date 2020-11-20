@@ -11,6 +11,7 @@ source $HOME/.config/nvim/vimwiki/vimwiki.vim
 source $HOME/.config/nvim/format/neoformat.vim
 " source $HOME/.config/nvim/status/lightline.vim
 source $HOME/.config/nvim/status/lsp_status.vim
+source $HOME/.config/nvim/autopair/autopair.vim
 
 let g:python2_host_prog = '/home/jlopez/anaconda3/bin/python'
 

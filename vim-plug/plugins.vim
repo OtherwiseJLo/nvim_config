@@ -51,6 +51,7 @@ Plug 'romgrk/barbar.nvim'
 Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
 
 
+" Databases
 Plug 'tpope/vim-dadbod'
 Plug 'kristijanhusak/vim-dadbod-ui'
 Plug 'kristijanhusak/vim-dadbod-completion'
@@ -75,6 +76,10 @@ Plug 'glepnir/zephyr-nvim'
 
 Plug 'ThePrimeagen/vim-be-good'
 
-Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
+" Markdown preview
 Plug 'npxbr/glow.nvim', {'do': ':GlowInstall'}
+
+" Adding auto complete supports
+Plug 'tpope/vim-endwise'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()

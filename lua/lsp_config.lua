@@ -34,7 +34,7 @@ lspconfig.jdtls.setup{
 
 lspconfig.dockerls.setup{on_attach=full_attach}
 lspconfig.vimls.setup{on_attach=full_attach}
-lspconfig.pyls.setup{on_attach=full_attach}
+lspconfig.pyls_ms.setup{on_attach=full_attach}
 lspconfig.clangd.setup{on_attach=full_attach}
 lspconfig.clangd.setup{on_attach=full_attach}
 lspconfig.julials.setup{on_attach=full_attach}
