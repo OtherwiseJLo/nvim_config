@@ -52,9 +52,9 @@ Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
 
 
 " Databases
-Plug 'tpope/vim-dadbod'
-Plug 'kristijanhusak/vim-dadbod-ui'
-Plug 'kristijanhusak/vim-dadbod-completion'
+" Plug 'tpope/vim-dadbod'
+" Plug 'kristijanhusak/vim-dadbod-ui'
+" Plug 'kristijanhusak/vim-dadbod-completion'
 
 
 Plug 'wellle/visual-split.vim'
