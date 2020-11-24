@@ -85,6 +85,7 @@ Plug 'jiangmiao/auto-pairs'
 
 " Commentary
 Plug 'preservim/nerdcommenter'
+Plug 'mfussenegger/nvim-jdtls'
 
 " Git integration
 Plug 'airblade/vim-gitgutter'

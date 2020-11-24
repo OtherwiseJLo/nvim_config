@@ -51,3 +51,5 @@ call neomake#configure#automake('rw', 1000)
 call neomake#configure#automake('nrwi', 500)
 
 nmap <leader>pre :Glow<CR>
+
+
