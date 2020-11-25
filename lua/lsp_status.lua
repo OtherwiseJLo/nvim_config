@@ -13,11 +13,6 @@ nvim_lsp.clangd.setup({
   capabilities = lsp_status.capabilities
 })
 
-nvim_lsp.ghcide.setup({
-  on_attach = lsp_status.on_attach,
-  capabilities = lsp_status.capabilities
-})
-
 nvim_lsp.vimls.setup({
   on_attach = lsp_status.on_attach,
   capabilities = lsp_status.capabilities

@@ -31,6 +31,10 @@ lspconfig.html.setup{on_attach=full_attach}
 lspconfig.jsonls.setup{on_attach=full_attach}
 lspconfig.sumneko_lua.setup{on_attach=full_attach}
 lspconfig.tsserver.setup{on_attach=full_attach}
+lspconfig.texlab.setup{on_attach=full_attach}
+lspconfig.ocamllsp.setup{on_attach=full_attach}
+lspconfig.rust_analyzer.setup{on_attach=full_attach}
+
 
 
 
