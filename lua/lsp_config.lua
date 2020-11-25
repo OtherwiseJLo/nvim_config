@@ -34,6 +34,7 @@ lspconfig.tsserver.setup{on_attach=full_attach}
 lspconfig.texlab.setup{on_attach=full_attach}
 lspconfig.ocamllsp.setup{on_attach=full_attach}
 lspconfig.rust_analyzer.setup{on_attach=full_attach}
+lspconfig.kotlin_language_server.setup{on_attach=full_attach}
 
 
 
