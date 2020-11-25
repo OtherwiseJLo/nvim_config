@@ -51,3 +51,7 @@ nnoremap <Leader>loc <cmd>lua require'telescope.builtin'.loclist{}<CR>
 nnoremap <Leader>ts <cmd> lua require'telescope.builtin'.treesitter{}<CR>
 nnoremap <Leader>gt <cmd>lua require'telescope.builtin'.git_files{}<CR>
 nnoremap <Leader>ls <cmd>lua require'telescope.builtin'.find_files{}<CR>
+
+nnoremap <Leader>/ :lua require'telescope.builtin'.live_grep(require('telescope.themes').get_dropdown({}))<cr>
+nnoremap <Leader>fw :lua require'telescope.builtin'.grep_string(require('telescope.themes').get_dropdown({}))<cr>
+
