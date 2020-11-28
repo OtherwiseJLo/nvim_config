@@ -18,6 +18,7 @@ lspconfig.gopls.setup{
   -- root_dir = lspconfig.util.root_pattern(".git", "build.gradle", "build.gradle.kts", "pom.xml");
 -- }
 
+lspconfig.dockerls.setup{on_attach=full_attach}
 lspconfig.vimls.setup{on_attach=full_attach}
 lspconfig.pyls_ms.setup{on_attach=full_attach}
 lspconfig.clangd.setup{on_attach=full_attach}

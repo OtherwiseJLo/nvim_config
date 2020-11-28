@@ -73,6 +73,8 @@ Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!' }
 " Colorschemes
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 Plug 'glepnir/zephyr-nvim'
+Plug 'arcticicestudio/nord-vim'
+Plug 'christianchiarulli/nvcode-color-schemes.vim'
 
 Plug 'ThePrimeagen/vim-be-good'
 

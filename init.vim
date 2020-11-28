@@ -32,12 +32,16 @@ set completeopt=menuone,noinsert,noselect
 set shortmess+=c
 
 
+let g:nvcode_termcolors=256
+syntax on
+colorscheme nord
+
 if has('nvim') || has('termguicolors')
   set termguicolors
+  hi LineNr ctermbg=NONE guibg=NONE
 endif
 
-colorscheme challenger_deep
-let g:challenger_deep_termcolors = 16
+" let g:challenger_deep_termcolors = 16
 
 
 " When writing a buffer (no delay).
