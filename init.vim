@@ -34,7 +34,7 @@ set shortmess+=c
 
 let g:nvcode_termcolors=256
 syntax on
-colorscheme nord
+colorscheme aurora
 
 if has('nvim') || has('termguicolors')
   set termguicolors

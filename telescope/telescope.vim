@@ -54,4 +54,5 @@ nnoremap <Leader>ls <cmd>lua require'telescope.builtin'.find_files{}<CR>
 
 nnoremap <Leader>/ :lua require'telescope.builtin'.live_grep(require('telescope.themes').get_dropdown({}))<cr>
 nnoremap <Leader>fw :lua require'telescope.builtin'.grep_string(require('telescope.themes').get_dropdown({}))<cr>
+nnoremap <Leader>color :lua require'telescope.builtin'.colorscheme(require('telescope.themes').get_dropdown({}))<cr>
 
