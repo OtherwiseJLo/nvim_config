@@ -101,8 +101,11 @@ local refactor_config = {
   }
 
 require'nvim-treesitter.configs'.setup {
+  indent = {enable = true},
+}
+  
+require'nvim-treesitter.configs'.setup {
   ensure_installed = "all",
-  indent = true,
   highlight = highlight_config,
   incremental_selection = incremental_selection_cofig,
   refactor = refactor_config,
