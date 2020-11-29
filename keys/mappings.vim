@@ -47,8 +47,8 @@ nnoremap <Leader>O O<Esc>^Da
 noremap <silent><f5> :AsyncTask file-run<cr>
 noremap <silent><f9> :AsyncTask file-build<cr>
 
-noremap <Leader>test :AsyncTask project-test
-noremap <Leader>clean :AsyncTask project-clean
+noremap <Leader>test :AsyncTask project-test<cr>
+noremap <Leader>clean :AsyncTask project-clean<cr>
 
 noremap <silent><f6> :AsyncTask project-run<cr>
 noremap <silent><f7> :AsyncTask project-build<cr>
