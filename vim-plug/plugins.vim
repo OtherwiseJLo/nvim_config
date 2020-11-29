@@ -93,7 +93,6 @@ Plug 'mfussenegger/nvim-jdtls'
 Plug 'airblade/vim-gitgutter'
 
 Plug 'udalov/kotlin-vim'
-Plug 'hdiniz/vim-gradle'
 
 Plug 'skywind3000/asynctasks.vim'
 Plug 'skywind3000/asyncrun.vim'
