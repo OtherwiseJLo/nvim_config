@@ -58,3 +58,16 @@ call neomake#configure#automake('nrwi', 500)
 nmap <leader>pre :Glow<CR>
 
 
+let g:asyncrun_open = 6
+
+function! s:run_floaterm(opts)
+  let cwd = getcwd()
+  let cmd = 'cd ' . shellescape(cwd) . ' && ' . a:opts.cmd
+  execute 'FloatermNew --title=floaterm_runner --autoclose=0 ' . cmd
+  " Back to the normal mode
+  " stopinsert
+endfunction
+
+let g:asyncrun_runner = get(g:, 'asyncrun_runner', {})
+let g:asyncrun_runner.floaterm = function('s:run_floaterm')
+let g:asynctasks_term_pos = 'floaterm'
