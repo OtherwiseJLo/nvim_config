@@ -91,4 +91,6 @@ Plug 'mfussenegger/nvim-jdtls'
 
 " Git integration
 Plug 'airblade/vim-gitgutter'
+
+Plug 'udalov/kotlin-vim'
 call plug#end()

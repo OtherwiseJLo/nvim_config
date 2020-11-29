@@ -13,34 +13,3 @@ nvim_lsp.clangd.setup({
   capabilities = lsp_status.capabilities
 })
 
-nvim_lsp.vimls.setup({
-  on_attach = lsp_status.on_attach,
-  capabilities = lsp_status.capabilities
-})
-
-nvim_lsp.sqlls.setup({
-  on_attach = lsp_status.on_attach,
-  capabilities = lsp_status.capabilities
-})
-
-
-nvim_lsp.julials.setup({
-  on_attach = lsp_status.on_attach,
-  capabilities = lsp_status.capabilities
-})
-
-nvim_lsp.leanls.setup({
-  on_attach = lsp_status.on_attach,
-  capabilities = lsp_status.capabilities
-})
-
-nvim_lsp.gopls.setup({
-  on_attach = lsp_status.on_attach,
-  capabilities = lsp_status.capabilities
-})
-
-nvim_lsp.jdtls.setup({
-  on_attach = lsp_status.on_attach,
-  capabilities = lsp_status.capabilities
-})
-
