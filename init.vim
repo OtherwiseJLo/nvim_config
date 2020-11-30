@@ -4,7 +4,7 @@ source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/lsp/lsp.vim
 source $HOME/.config/nvim/treesitter/treesitter.vim
 source $HOME/.config/nvim/telescope/telescope.vim
-" source $HOME/.config/nvim/dadbod/dadbod.vim
+source $HOME/.config/nvim/dadbod/dadbod.vim
 source $HOME/.config/nvim/barbar/barbar.vim
 source $HOME/.config/nvim/dashboard/dashboard.vim
 source $HOME/.config/nvim/vimwiki/vimwiki.vim
