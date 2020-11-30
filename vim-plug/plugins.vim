@@ -96,4 +96,6 @@ Plug 'udalov/kotlin-vim'
 
 Plug 'skywind3000/asynctasks.vim'
 Plug 'skywind3000/asyncrun.vim'
+
+Plug 'bfredl/nvim-ipy'
 call plug#end()
