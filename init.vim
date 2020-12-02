@@ -5,11 +5,11 @@ source $HOME/.config/nvim/lsp/lsp.vim
 source $HOME/.config/nvim/treesitter/treesitter.vim
 source $HOME/.config/nvim/telescope/telescope.vim
 source $HOME/.config/nvim/dadbod/dadbod.vim
-source $HOME/.config/nvim/barbar/barbar.vim
+" source $HOME/.config/nvim/barbar/barbar.vim
 source $HOME/.config/nvim/dashboard/dashboard.vim
 source $HOME/.config/nvim/vimwiki/vimwiki.vim
 source $HOME/.config/nvim/format/neoformat.vim
-" source $HOME/.config/nvim/status/lightline.vim
+source $HOME/.config/nvim/status/lightline.vim
 source $HOME/.config/nvim/status/lsp_status.vim
 source $HOME/.config/nvim/autopair/autopair.vim
 source $HOME/.config/nvim/tree/chad.vim
@@ -35,16 +35,28 @@ set completeopt=menuone,noinsert,noselect
 set shortmess+=c
 
 
-let g:nvcode_termcolors=256
-syntax on
-colorscheme aurora
-
 if has('nvim') || has('termguicolors')
   set termguicolors
   hi LineNr ctermbg=NONE guibg=NONE
+  set t_Co=256
 endif
 
-" let g:challenger_deep_termcolors = 16
+let g:sonokai_style = 'andromeda'
+let g:sonokai_enable_italic = 0
+let g:sonokai_disable_italic_comment = 0
+let g:sonokai_transparent_background = 0
+
+
+
+let g:sonokai_style = 'maia'
+let g:sonokai_diagnostic_line_highlight = 1
+let g:sonokai_current_word = 'bold'
+
+
+
+colorscheme sonokai
+let g:lightline = {'colorscheme' : 'sonokai'}
+
 
 
 " When writing a buffer (no delay).

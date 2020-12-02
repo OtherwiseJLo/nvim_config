@@ -98,4 +98,6 @@ Plug 'skywind3000/asynctasks.vim'
 Plug 'skywind3000/asyncrun.vim'
 
 Plug 'bfredl/nvim-ipy'
+Plug 'sainnhe/sonokai'
+
 call plug#end()
