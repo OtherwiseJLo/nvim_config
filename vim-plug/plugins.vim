@@ -46,7 +46,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'voldikss/vim-floaterm'
 Plug 'vimwiki/vimwiki'
 Plug 'sbdchd/neoformat'
-Plug 'romgrk/barbar.nvim'
+" Plug 'romgrk/barbar.nvim'
 
 Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
 

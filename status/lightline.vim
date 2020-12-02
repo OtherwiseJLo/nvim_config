@@ -5,12 +5,19 @@
 set laststatus=2
 
 let g:lightline = {
-      \ 'colorscheme': 'challenger_deep',
       \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \   'left': [ [ 'mode', 'paste'  ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified'  ] ] ,
+      \   'right': [ [ 'lineinfo'  ],
+      \              [ 'percent'  ],
+      \              [ 'fileformat', 'fileencoding', 'filetype', 'charvaluehex'  ] ]
       \ },
       \ 'component_function': {
-      \   'nvim_treesitter': 'statusline(90)'
+      \   'gitbranch': 'FugitiveHead'
+      \ },
+      \ 'component': {
+      \   'charvaluehex': '0x%B'
       \ },
       \ }
+
+let g:lightline.colorscheme = 'sonokai'

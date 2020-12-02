@@ -9,8 +9,6 @@ source $HOME/.config/nvim/dadbod/dadbod.vim
 source $HOME/.config/nvim/dashboard/dashboard.vim
 source $HOME/.config/nvim/vimwiki/vimwiki.vim
 source $HOME/.config/nvim/format/neoformat.vim
-source $HOME/.config/nvim/status/lightline.vim
-source $HOME/.config/nvim/status/lsp_status.vim
 source $HOME/.config/nvim/autopair/autopair.vim
 source $HOME/.config/nvim/tree/chad.vim
 source $HOME/.config/nvim/commenter/commenter.vim
@@ -18,6 +16,8 @@ source $HOME/.config/nvim/git/gutter.vim
 source $HOME/.config/nvim/git/fugitive.vim
 source $HOME/.config/nvim/floaterm/floaterm.vim
 source $HOME/.config/nvim/nvim-ipy/ipy.vim
+source $HOME/.config/nvim/status/lsp_status.vim
+source $HOME/.config/nvim/status/lightline.vim
 
 
 let g:python2_host_prog = '/home/jlopez/anaconda3/bin/python'
@@ -55,7 +55,7 @@ let g:sonokai_current_word = 'bold'
 
 
 colorscheme sonokai
-let g:lightline = {'colorscheme' : 'sonokai'}
+" let g:lightline = {'colorscheme' : 'sonokai'}
 
 
 
