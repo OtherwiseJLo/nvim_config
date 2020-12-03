@@ -2,7 +2,7 @@ let g:nvim_ipy_perform_mappings = 0
 
 
 
-map <silent> <F5> <Plug>(IPy-Run)
+" map <silent> <F5> <Plug>(IPy-Run)
 map <silent> <leader>cr <Plug>(IPy-RunCell)
 map <silent> <leader>py <Plug>(IPy-RunAll)
 map <silent> <leader>op <Plug>(IPy-RunOp)

@@ -21,6 +21,7 @@ source $HOME/.config/nvim/status/lightline.vim
 
 
 let g:python2_host_prog = '/home/jlopez/anaconda3/bin/python'
+highlight Comment cterm=italic
 
 
 
@@ -42,7 +43,7 @@ if has('nvim') || has('termguicolors')
 endif
 
 let g:sonokai_style = 'andromeda'
-let g:sonokai_enable_italic = 0
+let g:sonokai_enable_italic = 1
 let g:sonokai_disable_italic_comment = 0
 let g:sonokai_transparent_background = 0
 
@@ -55,7 +56,6 @@ let g:sonokai_current_word = 'bold'
 
 
 colorscheme sonokai
-" let g:lightline = {'colorscheme' : 'sonokai'}
 
 
 
