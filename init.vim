@@ -1,5 +1,7 @@
+lua require('paks')
+
 source $HOME/.config/nvim/general/settings.vim
-source $HOME/.config/nvim/vim-plug/plugins.vim
+" source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/lsp/lsp.vim
 source $HOME/.config/nvim/treesitter/treesitter.vim
@@ -21,7 +23,7 @@ source $HOME/.config/nvim/status/lightline.vim
 
 
 let g:python2_host_prog = '/home/jlopez/anaconda3/bin/python'
-highlight Comment cterm=italic
+" highlight Comment cterm=italic
 
 
 
