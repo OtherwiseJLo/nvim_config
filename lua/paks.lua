@@ -30,8 +30,6 @@ paq 'vimwiki/vimwiki'
 paq 'sbdchd/neoformat'
 -- paq 'romgrk/barbar.nvim'
 
--- paq 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotepaqins'}
-
 
 -- Databases
 paq 'tpope/vim-dadbod'
