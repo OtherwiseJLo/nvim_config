@@ -1,4 +1,4 @@
-lua require('paks')
+lua require('paqs')
 
 source $HOME/.config/nvim/general/settings.vim
 " source $HOME/.config/nvim/vim-plug/plugins.vim
@@ -37,6 +37,8 @@ set completeopt=menuone,noinsert,noselect
 " Avoid showing message extra message when using completion
 set shortmess+=c
 
+set colorcolumn=80
+
 
 if has('nvim') || has('termguicolors')
   set termguicolors
@@ -44,14 +46,13 @@ if has('nvim') || has('termguicolors')
   set t_Co=256
 endif
 
-let g:sonokai_style = 'andromeda'
+" let g:sonokai_style = 'andromeda'
+let g:sonokai_style = 'maia'
 let g:sonokai_enable_italic = 1
 let g:sonokai_disable_italic_comment = 0
 let g:sonokai_transparent_background = 0
 
 
-
-let g:sonokai_style = 'maia'
 let g:sonokai_diagnostic_line_highlight = 1
 let g:sonokai_current_word = 'bold'
 
@@ -87,3 +88,8 @@ endfunction
 let g:asyncrun_runner = get(g:, 'asyncrun_runner', {})
 let g:asyncrun_runner.floaterm = function('s:run_floaterm')
 let g:asynctasks_term_pos = 'floaterm'
+
+" Markdown settings
+autocmd BufNewFile,BufRead *.md set filetype=markdown
+" autocmd BufNewFile,BufRead *.md set set spell!
+"
