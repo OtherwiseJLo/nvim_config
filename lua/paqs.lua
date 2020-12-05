@@ -79,6 +79,5 @@ paq 'udalov/kotlin-vim'
 paq 'skywind3000/asynctasks.vim'
 paq 'skywind3000/asyncrun.vim'
 
-paq 'bfredl/nvim-ipy'
 paq 'sainnhe/sonokai'
 
