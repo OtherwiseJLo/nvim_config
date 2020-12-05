@@ -6,18 +6,25 @@ set laststatus=2
 
 let g:lightline = {
       \ 'active': {
-      \   'left': [ [ 'mode', 'paste'  ],
-      \             [ 'gitbranch', 'readonly', 'filename', 'modified'  ] ] ,
-      \   'right': [ [ 'lineinfo'  ],
-      \              [ 'percent'  ],
-      \              [ 'fileformat', 'fileencoding', 'filetype', 'charvaluehex'  ] ]
+      \   'left': [ ['mode', 'paste', 'readonly'  ],
+      \             [ 'filename', 'gitbranch', 'modified' ] ] ,
+      \   'right': [ [ 'percent', 'lineinfo'  ],
+      \              [ 'fileformat', 'fileencoding' ],
+      \              [ 'lspstatus' ]]
       \ },
       \ 'component_function': {
-      \   'gitbranch': 'FugitiveHead'
-      \ },
-      \ 'component': {
-      \   'charvaluehex': '0x%B'
+      \   'gitbranch': 'FugitiveHead',
+      \   'lspstatus': 'LspStatus'
       \ },
       \ }
+
+" Statusline
+function! LspStatus() abort
+  if luaeval('#vim.lsp.buf_get_clients() > 0')
+    return luaeval("require('lsp-status').status()")
+  endif
+
+  return ''
+endfunction
 
 let g:lightline.colorscheme = 'sonokai'

@@ -1,23 +1,20 @@
 lua require('paqs')
 
 source $HOME/.config/nvim/general/settings.vim
-" source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/lsp/lsp.vim
 source $HOME/.config/nvim/treesitter/treesitter.vim
 source $HOME/.config/nvim/telescope/telescope.vim
 source $HOME/.config/nvim/dadbod/dadbod.vim
-" source $HOME/.config/nvim/barbar/barbar.vim
 source $HOME/.config/nvim/dashboard/dashboard.vim
 source $HOME/.config/nvim/vimwiki/vimwiki.vim
 source $HOME/.config/nvim/format/neoformat.vim
-source $HOME/.config/nvim/autopair/autopair.vim
-source $HOME/.config/nvim/tree/chad.vim
 source $HOME/.config/nvim/commenter/commenter.vim
 source $HOME/.config/nvim/git/gutter.vim
 source $HOME/.config/nvim/git/fugitive.vim
 source $HOME/.config/nvim/floaterm/floaterm.vim
-source $HOME/.config/nvim/nvim-ipy/ipy.vim
+source $HOME/.config/nvim/lexima/lexima.vim
+
 source $HOME/.config/nvim/status/lsp_status.vim
 source $HOME/.config/nvim/status/lightline.vim
 

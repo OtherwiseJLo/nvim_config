@@ -5,33 +5,35 @@ lsp_status.register_progress()
 
 
 local full_attach = function(client)
-  print("LSP Started")
   require'completion'.on_attach(client)
   require'lsp-status'.on_attach(client)
   lsp_status.on_attach(client)
 end
 
-lspconfig.gopls.setup{
-  on_attach=full_attach;
-  root_dir = lspconfig.util.root_pattern('.git');
-}
- 
--- lspconfig.jdtls.setup{
-  -- on_attach = full_attach;
-  -- root_dir = lspconfig.util.root_pattern(".git", "build.gradle", "build.gradle.kts", "pom.xml");
--- }
-lspconfig.clangd.setup{
+lspconfig.gopls.setup({
+  on_attach=full_attach,
+  capabilities = lsp_status.capabilities,
+  root_dir = lspconfig.util.root_pattern('.git')
+})
+
+lspconfig.clangd.setup({
   handlers = lsp_status.extensions.clangd.setup(),
   init_options = {
     clangdFileStatus = true
   },
-  on_attach=full_attach,
+  on_attach = lsp_status.on_attach,
   capabilities = lsp_status.capabilities
-}
+})
+
+lspconfig.pyls_ms.setup({
+  handlers = lsp_status.extensions.pyls_ms.setup(),
+  settings = { python = { workspaceSymbols = { enabled = true }}},
+  on_attach = lsp_status.on_attach,
+  capabilities = lsp_status.capabilities
+})
 
 lspconfig.dockerls.setup{on_attach=full_attach, capabilities = lsp_status.capabilities}
 lspconfig.vimls.setup{on_attach=full_attach, capabilities = lsp_status.capabilities}
-lspconfig.pyls_ms.setup{on_attach=full_attach, capabilities = lsp_status.capabilities}
 lspconfig.julials.setup{on_attach=full_attach, capabilities = lsp_status.capabilities}
 lspconfig.metals.setup{on_attach=full_attach, capabilities = lsp_status.capabilities}
 lspconfig.leanls.setup{on_attach=full_attach, capabilities = lsp_status.capabilities}

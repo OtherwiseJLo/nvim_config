@@ -1,6 +1,7 @@
 vim.cmd 'packadd paq-nvim'
 local paq = require'paq-nvim'.paq
 
+paq 'savq/paq-nvim'
 paq 'neovim/nvim-lspconfig'
 paq 'neomake/neomake'
 
@@ -63,7 +64,8 @@ paq 'npxbr/glow.nvim'
 
 -- Adding auto complete supports
 paq 'tpope/vim-endwise'
-paq 'jiangmiao/auto-pairs'
+paq 'rstacruz/vim-closer'
+paq 'cohama/lexima.vim'
 
 -- Commentary
 paq 'preservim/nerdcommenter'
