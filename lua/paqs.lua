@@ -81,3 +81,5 @@ paq 'skywind3000/asyncrun.vim'
 
 paq 'sainnhe/sonokai'
 
+paq 'untitled-ai/jupyter_ascending.vim'
+
