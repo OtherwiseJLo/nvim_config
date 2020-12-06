@@ -14,6 +14,7 @@ source $HOME/.config/nvim/git/gutter.vim
 source $HOME/.config/nvim/git/fugitive.vim
 source $HOME/.config/nvim/floaterm/floaterm.vim
 source $HOME/.config/nvim/lexima/lexima.vim
+source $HOME/.config/nvim/nvim-dap/dap.vim
 
 source $HOME/.config/nvim/status/lsp_status.vim
 source $HOME/.config/nvim/status/lightline.vim

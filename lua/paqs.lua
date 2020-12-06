@@ -13,7 +13,6 @@ paq 'unblevable/quick-scope'
 paq 'nvim-lua/completion-nvim'
 paq 'nvim-lua/popup.nvim'
 paq 'nvim-lua/plenary.nvim'
-paq 'nvim-lua/telescope.nvim'
 paq 'nvim-lua/lsp-status.nvim'
 
 paq 'nvim-treesitter/nvim-treesitter'
@@ -83,3 +82,12 @@ paq 'sainnhe/sonokai'
 
 paq 'untitled-ai/jupyter_ascending.vim'
 
+-- Telescope
+paq 'nvim-telescope/telescope.nvim'
+paq 'nvim-telescope/telescope-symbols.nvim'
+paq 'nvim-telescope/telescope-github.nvim'
+paq 'nvim-telescope/telescope-dap.nvim'
+-- Debuggers
+paq 'mfussenegger/nvim-dap'
+paq 'mfussenegger/nvim-dap-python'
+paq 'theHamsta/nvim-dap-virtual-text'
