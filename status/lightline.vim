@@ -8,13 +8,14 @@ let g:lightline = {
       \ 'active': {
       \   'left': [ ['mode', 'paste', 'readonly'  ],
       \             [ 'filename', 'gitbranch', 'modified' ] ] ,
-      \   'right': [ [ 'percent', 'lineinfo'  ],
+      \   'right': [ [ 'csv', 'percent', 'lineinfo'  ],
       \              [ 'fileformat', 'fileencoding' ],
       \              [ 'lspstatus' ]]
       \ },
       \ 'component_function': {
       \   'gitbranch': 'FugitiveHead',
-      \   'lspstatus': 'LspStatus'
+      \   'lspstatus': 'LspStatus',
+      \   'csv' : 'CSV_WCol'
       \ },
       \ }
 
