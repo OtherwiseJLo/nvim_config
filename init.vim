@@ -90,3 +90,8 @@ let g:asynctasks_term_pos = 'floaterm'
 " Markdown settings
 autocmd BufNewFile,BufRead *.md set filetype=markdown
 " autocmd BufNewFile,BufRead *.md set set spell!
+"
+
+" Enable persistent undo so that undo history persists across vim sessions
+set undofile
+set undodir=~/.vim/undo
