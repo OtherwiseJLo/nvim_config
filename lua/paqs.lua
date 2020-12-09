@@ -91,3 +91,9 @@ paq 'nvim-telescope/telescope-dap.nvim'
 paq 'mfussenegger/nvim-dap'
 paq 'mfussenegger/nvim-dap-python'
 paq 'theHamsta/nvim-dap-virtual-text'
+
+paq 'SidOfc/mkdx'
+
+paq 'simnalamburt/vim-mundo'
+
+paq 'tpope/vim-obsession'
