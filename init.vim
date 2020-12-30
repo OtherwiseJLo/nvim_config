@@ -18,6 +18,7 @@ source $HOME/.config/nvim/nvim-dap/dap.vim
 
 source $HOME/.config/nvim/status/lsp_status.vim
 source $HOME/.config/nvim/status/lightline.vim
+source $HOME/.config/nvim/snippets/vsnip.vim
 
 
 let g:python2_host_prog = '/home/jlopez/anaconda3/bin/python'

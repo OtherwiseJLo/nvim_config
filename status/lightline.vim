@@ -9,7 +9,7 @@ let g:lightline = {
       \   'left': [ ['mode', 'paste', 'readonly'  ],
       \             [ 'filename', 'gitbranch', 'modified' ] ] ,
       \   'right': [ [ 'csv', 'percent', 'lineinfo'  ],
-      \              [ 'fileformat', 'fileencoding' ],
+      \              [ 'fileformat', 'fileencoding', 'filetype' ],
       \              [ 'lspstatus' ]]
       \ },
       \ 'component_function': {
